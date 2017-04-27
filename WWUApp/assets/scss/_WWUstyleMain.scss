@@ -1,0 +1,225 @@
+  /* ===========================
+     Author: Bhargav Gandhi (BG)
+     Description: FPstyleMain.scss
+     =========================== */
+
+
+/*Home Page */
+  
+  #wwuDesk{
+    display: block;
+  }
+
+  #wwuMob{
+    display: none;
+  }
+
+section.row.HomeRow1{
+    background-color: $bgColorHome;
+
+
+  #homeHero{
+   
+    overflow:hidden;
+  
+    
+    img#wwuDesk{
+    
+    }
+
+    img {
+      max-width: 100%;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+  }
+}
+
+
+
+
+.center-inner{
+    width:100%;
+    height: auto;
+    margin-left:-50%;
+
+    text-align:center;
+    max-width:100%;
+  }
+  
+
+
+
+  h2.mini{
+    font-size: 16px;
+     font-family:  $MaxxRoundedBold;
+    
+    margin:0;
+    text-transform: none;
+  }
+
+  #homeRow3{
+         opacity:0;
+        transition: opaicty 0.1s ease-in;
+  }
+
+
+  p.homePara1, p.homePara2,  p.homePara3 {
+
+    width:570px;
+    margin: 25px auto;
+     max-width: 700px;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    color:$fontColor;
+    font-family: $fontStack;
+  }
+  
+  p.homePara1{
+
+      width: 80%;
+      margin: -5% auto 30px;
+      max-width: 420px;
+      font-family: $fontStack;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      letter-spacing: -0.2px;
+      text-align: center;
+      color: $fontColor;
+
+    
+ }
+
+ h3.comingSoonTxt{
+
+    margin: 30px auto;
+    font-size: 17px;
+    font-family:  $MaxxRoundedBold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+
+.downBtn{
+
+   font-family:  $MaxxRoundedBold;
+  -webkit-font-smoothing: initial !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal !important;
+    letter-spacing: -0.4px;
+  margin-right: 25px;
+  text-align: left;
+  width: 120px;
+  cursor: pointer !important;
+  display: inline-block !important;
+  background: $buttonColor;
+  border-radius: 5px !important;
+  outline: none !important;
+      padding: 9px 12px !important;
+  color: $fontColor !important;
+
+
+  box-shadow: 0px -0.3em 0px 0px rgba(220,186,57, 0.5) inset;
+
+  &:hover,&:active, &:focus{
+      color: $fontColor !important;
+      outline: none !important;
+  }
+}
+
+#button2{
+  margin-right:0;
+}
+
+p.homePara3 a{
+
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+      color: $fontColor;
+    font-family: $fontStack;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+  .agreeTxt{
+    color: $fontColor;
+    font-size: 12px;
+    font-family: $fontStack;
+    line-height: 1.3;
+    width:220px;
+    margin:40px auto;
+  }
+
+.btn-mapLists {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    color: $fontColor !important;
+    font-size: 20px !important;
+    font-size: 1.250em !important;
+    font-family: $fontStack !important;
+    white-space: normal !important;
+    line-height: 1.2;
+    text-align: left !important;
+    outline:none !important;
+    cursor:pointer;
+    width:90%;
+    border-radius:0 !important;
+    box-shadow:0 0 0 transparent !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    span{
+      font-family: $fontStack !important;
+    }
+  }
+
+.activeBtn{
+  /*border-bottom:1px solid #fff !important;*/
+  /* text-decoration:underline !important;*/
+  padding:0 10px;
+
+  span{
+   font-family: $fontStack !important;
+
+ }
+
+    &::after{
+      content: "___";
+      font-family: $fontStack;
+
+      display: block;
+      margin-top: -10px;
+   }
+}
+
+
+footer{
+  margin-top: 20px;
+  .copyrightTxt{
+    text-align: center;
+    font-size: 12px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+
+     a{
+       text-align: center;
+    font-size: 12px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+     }
+  }
+}

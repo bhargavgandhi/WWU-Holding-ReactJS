@@ -1,0 +1,482 @@
+  /* ===========================
+     Author: Bhargav Gandhi (BG)
+     Description: _mediaDesktop.scss
+     =========================== */
+
+/* Media Queries Desktop */
+
+
+@media screen and (min-width: 1000px) {
+  
+
+/*Home Page */
+  
+  #wwuDesk{
+    display: block;
+  }
+
+  #wwuMob{
+    display: none;
+  }
+
+section.row.HomeRow1{
+    background-color: $bgColorHome;
+
+  #homeHero{
+    overflow:hidden;
+    img#wwuDesk{
+    
+    }
+
+    img {
+      max-width: 100%;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+  }
+}
+
+
+.center-inner{
+    width:100%;
+    height: auto;
+    margin-left:-50%;
+
+    text-align:center;
+    max-width:100%;
+  }
+  
+
+  h2.mini{
+    font-size: 16px;
+    font-family:  $MaxxRoundedBold;
+    margin:0;
+    text-transform: none;
+  }
+
+
+
+
+  p.homePara1{
+
+      width: 80%;
+      margin: -5% auto 0px;
+      max-width: 420px;
+      font-family: $fontStack;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      letter-spacing: -0.2px;
+      text-align: center;
+      color: $fontColor;
+
+      span{
+        display: inline-block;
+        font-family: $fontStack;
+        font-size: inherit;
+      }
+ }
+
+ h3.comingSoonTxt{
+
+    margin: 35px auto 37px;
+    font-size: 17px;
+     font-family:  $MaxxRoundedBold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+
+.downBtn{
+
+ font-family:  $MaxxRoundedBold;
+  -webkit-font-smoothing: initial !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal !important;
+    letter-spacing: -0.4px;
+  text-align: left;
+  width: 140px;
+  cursor: pointer !important;
+  display: inline-block !important;
+  background: $buttonColor;
+  border-radius: 5px !important;
+  outline: none !important;
+      padding: 10px 12px !important;
+  color: $fontColor !important;
+  box-shadow: 0px -0.3em 0px 0px rgba(220,186,57, 0.5) inset;
+
+  &:hover,&:active, &:focus{
+      color: $fontColor !important;
+      outline: none !important;
+  }
+}
+
+#button2{
+  margin-right:0;
+}
+
+
+footer{
+  margin-top: 35px;
+  .copyrightTxt{
+    text-align: center;
+    font-size: 12px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+
+      span{
+        display: inline-block;
+         font-size: 12px;
+      }
+
+     a{
+       text-align: center;
+       font-size: 12px;
+       color: #7f7f7f;
+       line-height: 1.5;
+       letter-spacing: normal;
+     }
+  }
+}
+  
+}
+
+
+@media screen and (min-width: 1200px){
+
+  section.row.HomeRow1{
+    background-color: $bgColorHome;
+
+  #homeHero{
+    overflow:hidden;
+    img#wwuDesk{
+    
+    }
+
+    img {
+      max-width: 100%;
+      width: 82%;
+      margin: 0 auto;
+    }
+
+  }
+}
+}
+
+
+@media screen and (min-width: 1280px){
+
+ 
+
+}
+
+@media screen and (min-width: 1280px) and (max-height: 700px){
+  section.row.HomeRow1{
+    background-color: $bgColorHome;
+
+  #homeHero{
+    overflow:hidden;
+    img#wwuDesk{
+    
+    }
+
+    img {
+      max-width: 100%;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+  }
+}
+
+
+  p.homePara1{
+
+      width: 80%;
+      margin: -5% auto 0px;
+      max-width: 400px;
+      font-family: $fontStack;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.21;
+      letter-spacing: -0.2px;
+      text-align: center;
+      color: $fontColor;
+
+      span{
+        display: inline-block;
+        font-family: $fontStack;
+        font-size: inherit;
+      }
+ }
+
+ h3.comingSoonTxt{
+
+    margin: 25px auto 27px;
+    font-size: 15px;
+     font-family:  $MaxxRoundedBold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.downBtn{
+
+  font-size: 15px !important;
+  width: 130px;
+  padding: 10px 12px !important;
+
+}
+
+
+footer{
+  margin-top: 25px;
+  .copyrightTxt{
+    text-align: center;
+    font-size: 10px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+     
+     span{
+      font-size: inherit;
+     }
+
+     a{
+       text-align: center;
+        font-size: 10px;
+        color: #7f7f7f;
+       line-height: 1.5;
+       letter-spacing: normal;
+     }
+  }
+}
+
+
+}
+
+
+@media screen and (min-width: 1366px){
+  section.row.HomeRow1{
+    background-color: $bgColorHome;
+
+  #homeHero{
+    overflow:hidden;
+    img#wwuDesk{
+    
+    }
+
+    img {
+      max-width: 100%;
+      width: 77%;
+      margin: 0 auto;
+      max-width: 1088px;
+    }
+
+  }
+}
+
+footer{
+  margin-top: 25px;
+  .copyrightTxt{
+    text-align: center;
+    font-size: 11px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+
+     a{
+       text-align: center;
+    font-size: 12px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+     }
+  }
+}
+
+}
+@media screen and (min-width: 1500px) {
+
+     .col-xlg-8{
+
+        width: 70% !important;
+     }
+
+    
+
+  }
+
+
+  @media screen and (min-width: 1800px) {
+
+     .col-xlg-8{
+
+        width: 60% !important;
+     }
+
+
+      section.row.HomeRow1{
+        background-color: $bgColorHome;
+
+      #homeHero{
+        overflow:hidden;
+        img#wwuDesk{
+        
+        }
+
+        img {
+          max-width: 100%;
+          width: 68%;
+          margin: 0 auto;
+          max-width: 1100px;
+        }
+
+      }
+    }
+
+
+
+    p.homePara1{
+
+      width: 80%;
+      margin: -4.5% auto 0px;
+      max-width: 480px;
+      font-family: $fontStack;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      letter-spacing: -0.2px;
+      text-align: center;
+      color: $fontColor;
+
+      span{
+        display: inline-block;
+      }
+ }
+
+ h3.comingSoonTxt{
+
+    margin: 40px auto 42px;
+    font-size: 19px;
+     font-family:  $MaxxRoundedBold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+
+.downBtn{
+
+ font-family:  $MaxxRoundedBold;
+  -webkit-font-smoothing: initial !important;
+  font-size: 19px !important;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal !important;
+    letter-spacing: -0.4px;
+  text-align: left;
+  width: 150px;
+  cursor: pointer !important;
+  display: inline-block !important;
+  background: $buttonColor;
+  border-radius: 5px !important;
+  outline: none !important;
+      padding: 12px 12px !important;
+  color: $fontColor !important;
+  box-shadow: 0px -0.3em 0px 0px rgba(220,186,57, 0.5) inset;
+
+  &:hover,&:active, &:focus{
+      color: $fontColor !important;
+      outline: none !important;
+  }
+}
+
+
+footer{
+  margin-top: 45px;
+  .copyrightTxt{
+    text-align: center;
+    font-size: 14px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+
+      span{
+        display: inline-block;
+         font-size: 14px;
+      }
+
+     a{
+       text-align: center;
+    font-size: 14px;
+    color: #7f7f7f;
+     line-height: 1.5;
+     letter-spacing: normal;
+     }
+  }
+}
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1920px){
+  
+
+      section.row.HomeRow1{
+        background-color: $bgColorHome;
+
+      #homeHero{
+        overflow:hidden;
+        img#wwuDesk{
+        
+        }
+
+        img {
+          max-width: 100%;
+          width: 68%;
+          margin: 0 auto;
+          max-width: 1200px;
+        }
+
+      }
+    }
+
+
+}
+
+
+
+  @media screen and (min-width: 2100px) {
+
+     .col-xlg-8{
+
+        width: 50% !important;
+     }
+  }
+
+

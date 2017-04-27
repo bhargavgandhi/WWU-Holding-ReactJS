@@ -1,0 +1,39 @@
+  /* ===========================
+     Author: Bhargav Gandhi (BG)
+     Description: WWUStyle.scss
+     =========================== */
+
+// Reset and dependencies
+@import "normalize";
+@import "print";
+
+//Animate CSS
+@import "animate";
+
+//FontAwesome
+@import "fontAwesome";
+
+//Bootstrap CSS
+@import "bootstrap";
+
+//Bootstrap Overide CSS
+@import "bootOveride";
+
+//Base 
+@import "base";
+@import "baseClasses";
+
+// Header and Navbar
+@import "headerNav";
+
+//WWU Main Style
+@import "WWUstyleMain";
+
+
+// WWU Media Styles
+@import "mediaMobile";
+@import "mediaDesktop";
+
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
